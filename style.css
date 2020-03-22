@@ -1,0 +1,33 @@
+body{
+    background: #352f5b;
+}
+
+.container{
+    max-width: 700px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border:none;
+    background: rgba(0,0,0,0.2);
+    max-width: 700px;
+}
+
+.todos li{
+    background: #423a6f;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.submit-button{
+    float: left;
+    padding: 10px 50px;
+    background: #423a6f;
+}
+
+.searchHide{
+    display: none !important;
+}
